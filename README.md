@@ -1,6 +1,6 @@
 # HummingThread_App
 
-![HummingBirdLogo](https://github.com/mokshkant7/HummingBird/blob/master/images/HummingBirdLogo.png)
+![HummingThread](https://github.com/mokshkant7/HummingThreads/blob/master/Assets/SS.jpeg)
 
 To run this project you have to have either Android Studio or VsCode setup along with Flutter SDK.
 
