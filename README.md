@@ -1,17 +1,18 @@
-# hummingthread_app
+# HummingThread_App
 
-A new Flutter application.
+![HummingBirdLogo](https://github.com/mokshkant7/HummingBird/blob/master/images/HummingBirdLogo.png)
 
-## Getting Started
+To run this project you have to have either Android Studio or VsCode setup along with Flutter SDK.
 
-This project is a starting point for a Flutter application.
+In case you don't have it you can click on the following links.
 
-A few resources to get you started if this is your first Flutter project:
+For Android Studio:
+https://developer.android.com/studio
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+For Flutter SDK:
+https://flutter.dev/docs/get-started/install
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# HummingThreads
+
+Now if you have both the Android studio and Flutter setup all you have to do is clone the Repository.
+
+Cheers !
