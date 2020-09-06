@@ -1,6 +1,6 @@
 # HummingThread_App
 
-![HummingThread](https://github.com/mokshkant7/HummingThreads/blob/master/Assets/SS.jpeg)
+![HummingThreadLogo](https://github.com/mokshkant7/HummingThreads/blob/master/Assets/SS.jpeg)
 
 To run this project you have to have either Android Studio or VsCode setup along with Flutter SDK.
 
@@ -16,3 +16,7 @@ https://flutter.dev/docs/get-started/install
 Now if you have both the Android studio and Flutter setup all you have to do is clone the Repository.
 
 Cheers !
+
+Example is as Below :
+
+![HummingThread](https://github.com/mokshkant7/HummingThreads/blob/master/Assets/SS.jpeg)
