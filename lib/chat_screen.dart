@@ -122,26 +122,33 @@ class _ChatWindowState extends State<ChatWindow> {
                 Padding(
                   padding: EdgeInsets.symmetric(
                       horizontal: MediaQuery.of(context).size.height / 100),
-                  child: FloatingActionButton(
-                    backgroundColor: Colors.white,
-                    child: Transform.rotate(
-                      angle: -.5233,
-                      child: Icon(
-                        Icons.send,
-                        color: Colors.black,
+                  child: Container(
+                    height: 40,
+                    width: 40,
+                    child: FloatingActionButton(
+                      backgroundColor: Colors.white,
+                      child: Transform.rotate(
+                        angle: -.4,
+                        child: Padding(
+                          padding: EdgeInsets.fromLTRB(5, 0, 0, 0),
+                          child: Icon(
+                            Icons.send,
+                            color: Colors.black,
+                          ),
+                        ),
                       ),
+                      onPressed: () {
+                        int timestamp = DateTime.now().millisecondsSinceEpoch;
+                        String message = _messageBoxController.text;
+                        setState(() {
+                          messageQueue.add(TextMessage(
+                              messageContent: message,
+                              timeStamp: timestamp,
+                              sent: true));
+                          _messageBoxController.text = "";
+                        });
+                      },
                     ),
-                    onPressed: () {
-                      int timestamp = DateTime.now().millisecondsSinceEpoch;
-                      String message = _messageBoxController.text;
-                      setState(() {
-                        messageQueue.add(TextMessage(
-                            messageContent: message,
-                            timeStamp: timestamp,
-                            sent: true));
-                        _messageBoxController.text = "";
-                      });
-                    },
                   ),
                 )
               ],
